@@ -1,0 +1,23 @@
+/*size of the image*/
+#size{ width: 300px;
+    height: 300px;
+    }
+  
+  @-webkit-keyframes rotating {
+    from{
+         -webkit-transform: rotate(0deg);
+         }
+     to{
+         -webkit-transform: rotate(360deg);
+         }
+        }
+  /*rotating speed*/
+    .rotating { -webkit-animation: rotating 7s linear infinite;
+        }
+body,footer{background-color:black;
+            color: white;
+            text-align: center;
+     }
+
+/*for more css files (https://github.com/Thilina-Sakalasooriya)*/
+
